@@ -1,200 +1,100 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lan="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" contant="width=device-width, initial-scale=1.0">
+    <style>
 
-  <title>CHESA NYAMA THOMAS</title>
-
-  <style>
-
-    /* GENERAL WEBSITE STYLE */
-    body {
+/* GENERAL WEBSITE */
+    body { 
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: white;
-      color: black;
+      font-family: arial;
     }
-
-    /* NAVIGATION BAR */
-    nav {
-      background-color: green;
-      text-align: center;
-      padding: 20px;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    /* NAVIGATION LINKS */
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 15px;
-      font-size: 18px;
-    }
-
-    /* NAVIGATION HOVER */
-    nav a:hover {
-      color: yellow;
-    }
-
-    /* HOME BACKGROUND IMAGE */
-    .hero {
-      background-image: url("background.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 500px;
-      padding: 40px;
-      color: white;
-    }
-
-    /* HOME HEADING */
-    h1 {
-      color: red;
-      font-family: Arial, sans-serif;
-      font-size: 40px;
-    }
-
-    /* HOME PARAGRAPH */
-    .hero p {
-      font-size: 18px;
-      line-height: 1.8;
-      max-width: 800px;
-    }
-
-    /* BUTTON */
-    button {
-      background-color: green;
-      color: white;
-      padding: 15px 25px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-    /* BUTTON HOVER */
-    button:hover {
-      background-color: darkgreen;
-    }
-
-    /* ABOUT AND CONTACT SECTIONS */
-    section:not(.hero) {
-      padding: 40px;
-      text-align: center;
-    }
-
-    /* SECTION HEADINGS */
-    h2 {
-      color: green;
-      font-size: 30px;
-    }
-
-    /* FOOTER */
-    footer {
-      background-color: black;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    /* MOBILE PHONE DESIGN */
-    @media (max-width: 600px) {
-
-      nav a {
-        margin: 8px;
-        font-size: 14px;
+      /* BACKGROUND */
+      hero {
+        background-image: url("background.png");
+        background-size: cover;
+        background-position: center 
+        background-repeat: no-repeat;
+        min-height: 500px;
+        padding: 45px 
       }
-
-      .hero {
+      /* NAVIGATION BAR */ 
+      nav {
+        background-color: red;
+        font-family: arial;
+        text-align: center;
         padding: 20px;
-        min-height: 400px;
+      }
+      /* NAVIGATION LINKS */
+      nav a { 
+        color: white;
+        text-decoration: none;
+        padding: 20px;
       }
 
-      h1 {
-        font-size: 28px;
+      /* NAVIGATION HOVER */
+      nav a:hover {
+        color: red;
       }
-
-      .hero p {
-        font-size: 16px;
-      }
-
+      /* HEADING */
+      
+    h1 {
+      color: black
+      text-align: center;
+      font-family: arial;
     }
+      h2 {
+        color: yellow;
+        text-align: center;
+      }
+      h3 { 
+        color: white;
+        text-align: center;
 
-  </style>
-</head>
-
-<body>
-
-  <!-- NAVIGATION BAR -->
+      }
+      /* PARAGRAPH */
+      p {
+        color: blue;
+        text-align: center;
+      } 
+          
+        
+    </style>   
+  </head>
+  <body>
+/!-- NAVIGATION --/
   <nav>
-
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>   
   </nav>
 
-  <!-- HOME SECTION -->
-  <section class="hero" id="home">
+    /!-- HOME SECTION --/
+    <section class="hero" id="home">
+      <h1>WELCOME TO MY WEBSITE WE HUMBLE OUR SELVES </h1>
+      <p>IN THIS WEBSITE WE WILL BE TALKING ABOUT HOW TO MAKE MONEY WITHOUT WOKING FOR OURSELVE</p>
+    </section>
 
-    <h1>WELCOME TO CHESA NYAMA</h1>
+    /!-- ABOUT SECTION --/
+    <section id="about">
+      <h2>HOW WE OPARETE</h2>
+      <p>we making money in this website togeher as new gen u understand waht im trying to say my guy</p>
+    </section>
 
-    <p>
-      Welcome to Chesa Nyama, where great taste meets the heat of the fire!
-      We bring you freshly grilled, delicious, and mouthwatering meat prepared
-      with love and passion. Whether you're craving juicy steak, tasty wors,
-      tender chicken, or a traditional pap and meat meal, we've got something
-      special for you.
-
-      Come with your family and friends and enjoy an unforgettable taste of
-      authentic South African braai. At Chesa Nyama, every bite brings
-      happiness, every meal creates memories, and every customer is family.
-
-      Come hungry, leave happy, and keep coming back for more! 🔥🥩
-    </p>
-
-    <button onclick="location.href='#about'">
-      Explore Us
-    </button>
-
-  </section>
-
-  <!-- ABOUT SECTION -->
-  <section id="about">
-
-    <h2>Feel the Fire, Taste the Flavour!</h2>
-
-    <p>
-      Enjoy delicious, freshly grilled meat prepared with passion and served
-      with love. From juicy steaks to tasty wors and mouthwatering chicken,
-      every bite brings you the authentic taste of South African braai.
-
-      Come hungry, bring your loved ones, and let us make your day
-      extra delicious!
-    </p>
-
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-
-    <h2>Contact Us</h2>
-
-    <p>Email: mojimaroza@gmail.com</p>
-
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-
-    <p>© 2026 Chesa Nyama Thomas. All rights reserved.</p>
-
-  </footer>
-
-</body>
+    /!-- SERVICES SECTION --/
+    <section id="services">
+      <h3>PACKAGE DEALS</h3>
+      <P>MONTLY DATA R77
+      WEEKLY DATA R30
+      DAILLY DATA R10</P>
+    </section>
+    /!-- CONTACT SECTION --/
+    <section id="contact">
+      <h1> EMAIL</h1>
+     <p> mojimaroza@gmail.com</p>
+    </section>      
+  </body>
 </html>
