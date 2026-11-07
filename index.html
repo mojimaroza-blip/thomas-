@@ -1,100 +1,135 @@
+
 <!DOCTYPE html>
-<html lan="en">
+<html lang="en">
 
-  <head>
-<meta charset="UTF-8">
-<meta name="viewport" contant="width=device-width, initial-scale=1.0">
-    <style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* GENERAL WEBSITE */
-    body { 
+  <title>Still Practicing Website</title>
+
+  <style>
+
+    /* GENERAL WEBSITE */
+    body {
       margin: 0;
-      font-family: arial;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, red, blue);
     }
 
-    /* Left to right */
-background: linear-gradient(to right, red, blue);
-
-/* Top to bottom */
-background: linear-gradient(to bottom, red, blue);
-
-/* Diagonal */
-background: linear-gradient(45deg, red, blue);
-      /* NAVIGATION BAR */ 
-      nav {
-        background-color: red;
-        font-family: arial;
-        text-align: center;
-        padding: 20px;
-      }
-      /* NAVIGATION LINKS */
-      nav a { 
-        color: green;
-        text-decoration: none;
-        padding: 20px;
-      }
-
-      /* NAVIGATION HOVER */
-      nav a:hover {
-        color: red;
-      }
-      /* HEADING */
-      
-    h1 {
-      color: green;
+    /* NAVIGATION BAR */
+    nav {
+      background-color: darkblue;
       text-align: center;
-  
+      padding: 20px;
     }
-      h2 {
-        color: yellow;
-        text-align: center;
-      }
-      h3 { 
-        color: green;
-        text-align: center;
 
-      }
-      /* PARAGRAPH */
-      p {
-        color: blue;
-        text-align: center;
-      } 
-          
-        
-    </style>   
-  </head>
-  <body>
-<!-- NAVIGATION -->
+    /* NAVIGATION LINKS */
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 20px;
+      display: inline-block;
+    }
+
+    /* NAVIGATION HOVER */
+    nav a:hover {
+      color: yellow;
+    }
+
+    /* HOME SECTION */
+    .hero {
+      min-height: 400px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* OTHER SECTIONS */
+    section {
+      padding: 40px 20px;
+    }
+
+    /* HEADINGS */
+    h1 {
+      color: white;
+      text-align: center;
+    }
+
+    h2 {
+      color: yellow;
+      text-align: center;
+    }
+
+    h3 {
+      color: white;
+      text-align: center;
+    }
+
+    /* PARAGRAPHS */
+    p {
+      color: white;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* SERVICES */
+    ul {
+      color: white;
+      text-align: center;
+      list-style-position: inside;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
   <nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>   
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-    <!-- HOME SECTION -->
-    <section class="hero" id="home">
-      <h1>HOME</h1>
-      <p>IN THIS WEBSITE WE WILL BE TALKING ABOUT HOW TO MAKE MONEY WITHOUT WOKING FOR OURSELVE</p>
-    </section>
+  <!-- HOME SECTION -->
+  <section class="hero" id="home">
+    <h1>HOME</h1>
 
-    <!-- ABOUT SECTION -->
-    <section id="about">
-      <h2>ABOUT</h2>
-      <p>we making money in this website togeher as new gen u understand waht im trying to say my guy</p>
-    </section>
-    
-    <!-- SERVICES SECTION -->
-    <section id="services">
-      <h3>SERVICES</h3>
-      <P>MONTLY DATA R77
-      WEEKLY DATA R30
-      DAILLY DATA R10</P>
-    </section>
-    <!-- CONTACT SECTION -->
-    <section id="contact">
-      <h1>CONTACT</h1>
-     <p> mojimaroza@gmail.com</p>
-    </section>      
-  </body>
+    <p>
+      IN THIS WEBSITE WE WILL BE TALKING ABOUT
+      HOW TO MAKE MONEY WITHOUT WORKING FOR OURSELVES.
+    </p>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>ABOUT</h2>
+
+    <p>
+      We are making money in this website together
+      as the new generation. You understand what
+      I'm trying to say, my guy!
+    </p>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services">
+    <h3>SERVICES</h3>
+
+    <ul>
+      <li>Monthly Data - R77</li>
+      <li>Weekly Data - R30</li>
+      <li>Daily Data - R10</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h1>CONTACT</h1>
+
+    <p>mojimaroza@gmail.com</p>
+  </section>
+
+</body>
 </html>
